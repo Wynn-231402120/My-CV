@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desknav">
+        <div class="logo">Wynn Thomas Salim</div>
+        <div>
+            <ul class="navlinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamnav">
+        <div class="logo">Wynn Thomas Salim</div>
+        <div class="hammenu">
+          <div class="hamicon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menulinks">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="picture1">
+            <img src="./assets/profpic.png" alt="Wynn Thomas Salim profile picture">
+        </div>
+        <div class="sectext">
+            <p class="p1">Halo, Saya</p>
+            <h1 class="name">Wynn Thomas Salim</h1>
+            <p class="p2">Mahasiswa TI USU</p>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="name">About Me</h1>
+        <p class="p3">Saya adalah mahasiswa Universitas Sumatera Utara (USU) dengan NIM 231402120 dari jurusan Teknologi Informasi. 
+            Saya mengambil jurusan TI karena saya ingin untuk bisa menciptakan game saya sendiri, karena dari kecil saya suka bermain game.
+        </p>
+    </section>
+    <section id="projects">
+        <h1 class="name">My Projects</h1>
+        <p class="p4">Ini adalah beberapa project saya</p>
+        <div class="expcon">
+            <div class="abcon">
+                <div class="detcon colcon">
+                    <div class="artcon">
+                        <img src="./assets/Top3G.png" alt="project1" class="projectimg">
+                    </div>
+                    <h1 class="p1"><a href="https://tugasindividu120.000webhostapp.com/IndexTugas1.html">Project 1</a></h1>
+                </div>
+                <div class="detcon colcon">
+                    <div class="artcon">
+                        <img src="./assets/Mihoyo (2.0) Registration.png" alt="project2" class="projectimg">
+                    </div>
+                    <h1 class="p1"><a href="https://tugasindividu120.000webhostapp.com/TugasProweb2.html">Project 2</a></h1>
+                </div>
+                <div class="detcon colcon">
+                    <div class="artcon">
+                        <img src="./assets/Calculator.png" alt="project2" class="projectimg">
+                    </div>
+                    <h1 class="p1"><a href="https://tugasindividu120.000webhostapp.com/TugasProweb3.html">Project 3</a></h1>
+                </div>
+                <div class="detcon colcon">
+                    <div class="artcon">
+                        <img src="./assets/About Mihoyo.png" alt="project2" class="projectimg">
+                    </div>
+                    <h1 class="p1"><a href="https://tugasindividu120.000webhostapp.com/TugasProweb4.html">Project 4</a></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="name">My Contact</h1>
+        <div class="concon">
+            <div class="cominfo">
+                <img src="./assets/gmail.png" alt="gmail" class="pic">
+                <p class="p5">wthomassalim@gmail.com</p>
+                <img src="./assets/phone.jpg" alt="phone" class="pic">
+                <p class="p5">081370757130</p>
+                <img src="./assets/Ig.avif" alt="Instagram" class="pic">
+                <a href="https://www.instagram.com/l1m.28?igsh=MWRtZXh4amN3NWVocA=="><p class="p5">l1m.28</p></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="feet">
+            <p class="p6">Copyright &#169; 2024 Wynn Thomas Salim. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="CV.js"></script>
+</body>
+</html>

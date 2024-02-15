@@ -1,0 +1,12 @@
+@media screen and (max-width: 1200px) {
+    #desknav {
+      display: none;
+    }
+    #hamnav {
+      display: flex;
+    }
+    .abcon {
+        flex-wrap: wrap;
+    }
+}
+
